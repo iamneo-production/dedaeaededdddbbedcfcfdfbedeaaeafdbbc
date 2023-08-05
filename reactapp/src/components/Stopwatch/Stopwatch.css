@@ -1,0 +1,18 @@
+.button_con{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    
+}
+
+.timefont{
+    font-size:xx-large;
+}
+
+.watch_container{
+    background-color: lightblue;
+
+}
+.inner_watch{
+    background-color:white;
+}
