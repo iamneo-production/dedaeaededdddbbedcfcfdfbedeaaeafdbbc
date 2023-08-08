@@ -60,7 +60,7 @@ class App extends React.Component {
 
   calculateScore() {
     let score = 0;
-    for (let i = 0; i < questionsData.length; i++) {
+    for (let i = 0; i < questionData.length; i++) {
       if (this.state.selectedAnswers[i] === questionData[i].correctAnswer) {
         score++;
       }
